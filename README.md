@@ -35,7 +35,7 @@ This project allows an ESP32-based robot controller to:
 
 ### Messages Sent:
 - When Enable button is pressed → sends `ENABLE` command
-- After 15 seconds → sends `DISABLE` command
+- After 150 seconds → sends `DISABLE` command
 
 ### Messages Received:
 - Command `3` with `state` 0–6 → updates LED ring to reflect FSM status
